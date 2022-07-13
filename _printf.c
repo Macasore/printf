@@ -12,6 +12,7 @@ int i;
 int m = 0;
 va_list list;
 char *s;
+
 if (!format)
 {
 return (-1);
