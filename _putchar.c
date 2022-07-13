@@ -6,8 +6,8 @@
  * @s: counter through string
  * Return: One or -1 if it is error
  */
-int _putchar(char c, int *s)
+int _putchar(char c, int *k)
 {
-	*s += 1;
-	return (write(1, &c, 1));
+	*k += 1;
+	return (write(1, &k, 1));
 }

@@ -4,10 +4,10 @@
 /*Structs*/
 /*Typedefs*/
 /*Prototypes*/
-int _putchar(char c, int *s);
+int _putchar(char c, int *k);
 void print_string(char *str, int *k);
 int _printf(const char *format, ...);
-void print_num(int n, int *k);
+void print_num(int n, int *s);
 void reverse_str(char *s, int *j);
 int _strlen(char *s);
 void _print_binary(int n, int *k);
