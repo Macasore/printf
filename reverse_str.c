@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _rev_string - reverses a string
+ * reverse_str - reverses a string
  *@s: char pointer
  *@j: counter through string
  * Return: *s
  */
 
-void _rev_string(char *s, int *j)
+void reverse_str(char *s, int *j)
 {
 int l, count;
 l = _string_length(s);
