@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * strlength - calculate length of a string
+ * strlen - calculate length of a string
  *@s: char pointer
  * Return: length
  */
 
-int strlength(char *s)
+int strlen(char *s)
 {
 char *cp = s;
 int l = 0;
