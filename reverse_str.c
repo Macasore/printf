@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * reverse_str - a function that reverses a string
- *@s: pointer
+ * _rev_string - reverses a string
+ *@s: char pointer
  *@j: counter through string
  * Return: *s
  */
 
-void _rev_string(char *s, int *k)
+void _rev_string(char *s, int *j)
 {
-	int len = _strlen(s);
-	int count = len - 1;
-
-	while (count >= 0)
-	{
-		_putchar(s[count], k);
-		count--;
-	}
+int l, count;
+l = _string_length(s);
+count = l - 1;
+while (count >= 0)
+{
+_putchar(s[count], j);
+count--;
+}
 }
