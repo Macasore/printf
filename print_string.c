@@ -5,7 +5,7 @@
  * @k: counter through string
  * Return: nothing
  */
-void print_string(char *str, int *k)
+void _puts(char *str, int *k)
 {
 if (!str)
 {
@@ -23,3 +23,4 @@ _putchar(*str, k);
 str++;
 }
 }
+
