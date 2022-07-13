@@ -41,19 +41,19 @@ _putchar('%', &m);
 break;
 case 'd':
 i = va_arg(list, int);
-_print_number(i, &m);
+print_num(i, &m);
 break;
 case 'i':
 i = va_arg(list, int);
-print_number(i, &m);
+print_num(i, &m);
 break;
 case 'r':
 s = va_arg(list, char *);
-_rev_string(s, &m);
+reverse_str(s, &m);
 break;
 case 'b':
 j = va_arg(list, int);
-_print_binary(j, &m);
+_printBinary(j, &m);
 break;
 case 'R':
 s = va_arg(list, char *);
